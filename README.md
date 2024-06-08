@@ -21,6 +21,9 @@
 **2.** `git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k`
 **3.** `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
 **4.** `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+**5.** `git clone https://github.com/wting/autojump.git`
+       `cd autojump`
+       `./install.py` 
 
 ## Finally
 `source ~/.zshrc`
