@@ -23,8 +23,12 @@
 **4.** `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions` <br>
 **5.** `git clone https://github.com/wting/autojump.git` <br>
        `cd autojump` <br>
-       `./install.py` 
+       `./install.py` <br>
+**6.** `git clone https://github.com/agkozak/zsh-z ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-z` <br>
+**7.** `git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search` <br>
+        `exec zsh`
 
 ## Finally
+
 `source ~/.zshrc`
 
