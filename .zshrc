@@ -5,6 +5,10 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+[[ -s /home/aquaman/.autojump/etc/profile.d/autojump.sh ]] && source /home/aquaman/.autojump/etc/profile.d/autojump.sh
+
+        autoload -U compinit && compinit -u
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -77,7 +81,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=( git zsh-syntax-highlighting zsh-autosuggestions )
+plugins=( git zsh-syntax-highlighting zsh-autosuggestions z zsh-history-substring-search )
 
 if [ -x "$(command -v exa)" ]; then
     alias e="exa"
